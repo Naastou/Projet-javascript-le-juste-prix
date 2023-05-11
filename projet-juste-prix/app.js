@@ -9,17 +9,17 @@ for (i = 1; i <= 10; i++) {
 
   // 3. Vérifier si le nombre est le juste prix et lui afficher un adéquat
   if (userImput === getRandonNumber) {
-    alert("Bravo");
+    alert("Bravo, vous avez gagné!");
     break;
   }
   if (userImput > getRandonNumber) {
-    alert("trop grand");
+    alert("trop grand, essayes encore!");
   }
   if (userImput < getRandonNumber) {
-    alert("trop petit");
+    alert("trop petit, essayes encore!");
   } else {
     alert("ce n'est pas un chiffre");
     i -= 1;
   }
 }
-alert("c'est fini. le chiffre cherche est : " + getRandonNumber);
+alert("c'est fini. le chiffre cherché est : " + getRandonNumber);
